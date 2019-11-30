@@ -49,6 +49,22 @@ DEPENDENCIES:
   - SDWebImage (~> 3.7.3)
   - TZImagePickerController
 
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - MJPhotoBrowser
+    - MJRefresh
+    - MLLabel
+    - MMPopupView
+    - ODRefreshControl
+    - SDWebImage
+    - SVProgressHUD
+    - TZImagePickerController
+    - YLGIFImage
+
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
   FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
@@ -64,6 +80,6 @@ SPEC CHECKSUMS:
   TZImagePickerController: cbfd57ba947263759b860f74132dd1bc33125afc
   YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
 
-PODFILE CHECKSUM: fd355c236b028368e6ab73afbf4b32c1672e5e1e
+PODFILE CHECKSUM: b7d4ee4aaadfef42e0b66d3e422232b5984c2e93
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.8.4
