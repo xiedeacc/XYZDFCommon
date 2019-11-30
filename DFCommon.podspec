@@ -3,22 +3,22 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DFCommon"
-  s.version      = "1.4.19"
+  s.version      = "1.4.22"
   s.summary      = "快速开发ios app，封装了ios开发常用的功能"
 
-  s.homepage     = "https://github.com/anyunzhong/DFCommon"
+  s.homepage     = "https://github.com/xiedeacc/DFCommon"
 
   s.license      = "Apache 2.0"
 
 
 
-  s.author             = { "AllenZhong" => "2642754767@qq.com" }
+  s.author             = { "yangzhenxie" => "2642754767@qq.com" }
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "9.0"
 
 
-  s.source       = { :git => "https://github.com/anyunzhong/DFCommon.git", :tag => "1.4.19" }
+  s.source       = { :git => "https://github.com/xiedeacc/DFCommon.git", :tag => "1.4.22" }
 
   s.source_files  = "DFCommon/DFCommon/**/*.{h,m}"
 
@@ -27,8 +27,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
 
-  s.dependency 'AFNetworking', '~> 3.0.0'
-  s.dependency 'SDWebImage', '~> 3.7.3'
+  s.dependency 'AFNetworking', '~> 3.0.4'
+  s.dependency 'SDWebImage', '~> 4.0.0'
   s.dependency 'FMDB', '2.5'
   s.dependency 'MBProgressHUD', '~> 0.9.1'
   s.dependency 'MLLabel', '1.7'
