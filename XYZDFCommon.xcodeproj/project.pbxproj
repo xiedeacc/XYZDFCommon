@@ -35,7 +35,7 @@
 		1181FCA11B9005F60005E3AA /* phone_line_dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1181FC141B9005F60005E3AA /* phone_line_dark@3x.png */; };
 		1181FCA21B9005F60005E3AA /* unlock_line_dark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1181FC151B9005F60005E3AA /* unlock_line_dark@2x.png */; };
 		1181FCA31B9005F60005E3AA /* unlock_line_dark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1181FC161B9005F60005E3AA /* unlock_line_dark@3x.png */; };
-		1181FCA41B9005F60005E3AA /* DFCommonRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1181FC181B9005F60005E3AA /* DFCommonRegisterController.m */; };
+		1181FCA41B9005F60005E3AA /* XYZDFCommonRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1181FC181B9005F60005E3AA /* XYZDFCommonRegisterController.m */; };
 		1181FCA51B9005F60005E3AA /* DFBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1181FC1A1B9005F60005E3AA /* DFBaseTabBarController.m */; };
 		1181FCA61B9005F60005E3AA /* DFBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1181FC1C1B9005F60005E3AA /* DFBaseTableViewController.m */; };
 		1181FCA71B9005F60005E3AA /* DFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1181FC1E1B9005F60005E3AA /* DFBaseViewController.m */; };
@@ -75,11 +75,11 @@
 		11E157C51BC0C3EA00F2F99A /* RRDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E157C41BC0C3EA00F2F99A /* RRDevice.m */; };
 		11E157CB1BC8BD8E00F2F99A /* MLLinkClickLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E157CA1BC8BD8E00F2F99A /* MLLinkClickLabel.m */; };
 		11F080421BD54CCC0084DAA3 /* DFTabIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F080411BD54CCC0084DAA3 /* DFTabIndicatorView.m */; };
-		81F85AE0121FC539C52D8C5F /* Pods_DFCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302B6D6BDB2365CE8DAD36C6 /* Pods_DFCommon.framework */; };
+		81F85AE0121FC539C52D8C5F /* Pods_XYZDFCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302B6D6BDB2365CE8DAD36C6 /* Pods_XYZDFCommon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		110FA27A1AF3FEF900771420 /* DFCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110FA27A1AF3FEF900771420 /* XYZDFCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZDFCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		110FA27E1AF3FEF900771420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		110FA27F1AF3FEF900771420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		110FA2811AF3FEF900771420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,8 +104,8 @@
 		117898041B933CF700E422FF /* fail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fail@3x.png"; sourceTree = "<group>"; };
 		117898071B93640400E422FF /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
 		117898081B93640400E422FF /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
-		1178980B1B93684E00E422FF /* DemoHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoHttpService.h; path = DFCommon/DemoHttpService.h; sourceTree = SOURCE_ROOT; };
-		1178980C1B93684E00E422FF /* DemoHttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoHttpService.m; path = DFCommon/DemoHttpService.m; sourceTree = SOURCE_ROOT; };
+		1178980B1B93684E00E422FF /* DemoHttpService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoHttpService.h; path = XYZDFCommon/DemoHttpService.h; sourceTree = SOURCE_ROOT; };
+		1178980C1B93684E00E422FF /* DemoHttpService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoHttpService.m; path = XYZDFCommon/DemoHttpService.m; sourceTree = SOURCE_ROOT; };
 		1181FC011B9005F60005E3AA /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
 		1181FC021B9005F60005E3AA /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		1181FC031B9005F60005E3AA /* NSMutableDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+JSON.h"; sourceTree = "<group>"; };
@@ -122,8 +122,8 @@
 		1181FC141B9005F60005E3AA /* phone_line_dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_line_dark@3x.png"; sourceTree = "<group>"; };
 		1181FC151B9005F60005E3AA /* unlock_line_dark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unlock_line_dark@2x.png"; sourceTree = "<group>"; };
 		1181FC161B9005F60005E3AA /* unlock_line_dark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unlock_line_dark@3x.png"; sourceTree = "<group>"; };
-		1181FC171B9005F60005E3AA /* DFCommonRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCommonRegisterController.h; sourceTree = "<group>"; };
-		1181FC181B9005F60005E3AA /* DFCommonRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCommonRegisterController.m; sourceTree = "<group>"; };
+		1181FC171B9005F60005E3AA /* XYZDFCommonRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDFCommonRegisterController.h; sourceTree = "<group>"; };
+		1181FC181B9005F60005E3AA /* XYZDFCommonRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZDFCommonRegisterController.m; sourceTree = "<group>"; };
 		1181FC191B9005F60005E3AA /* DFBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseTabBarController.h; sourceTree = "<group>"; };
 		1181FC1A1B9005F60005E3AA /* DFBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseTabBarController.m; sourceTree = "<group>"; };
 		1181FC1B1B9005F60005E3AA /* DFBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseTableViewController.h; sourceTree = "<group>"; };
@@ -136,7 +136,7 @@
 		1181FC231B9005F60005E3AA /* DFBaseDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseDataService.m; sourceTree = "<group>"; };
 		1181FC241B9005F60005E3AA /* DFBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFBaseResponse.h; sourceTree = "<group>"; };
 		1181FC251B9005F60005E3AA /* DFBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFBaseResponse.m; sourceTree = "<group>"; };
-		1181FC281B9005F60005E3AA /* DFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCommon.h; sourceTree = "<group>"; };
+		1181FC281B9005F60005E3AA /* XYZDFCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZDFCommon.h; sourceTree = "<group>"; };
 		1181FC721B9005F60005E3AA /* PullMoreFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullMoreFooterView.h; sourceTree = "<group>"; };
 		1181FC731B9005F60005E3AA /* PullMoreFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullMoreFooterView.m; sourceTree = "<group>"; };
 		1181FC741B9005F60005E3AA /* PullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshView.h; sourceTree = "<group>"; };
@@ -201,9 +201,9 @@
 		11E157CA1BC8BD8E00F2F99A /* MLLinkClickLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLinkClickLabel.m; sourceTree = "<group>"; };
 		11F080401BD54CCC0084DAA3 /* DFTabIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTabIndicatorView.h; sourceTree = "<group>"; };
 		11F080411BD54CCC0084DAA3 /* DFTabIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTabIndicatorView.m; sourceTree = "<group>"; };
-		302B6D6BDB2365CE8DAD36C6 /* Pods_DFCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DFCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AF6E1ADB27AC8DC9B861988 /* Pods-DFCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFCommon/Pods-DFCommon.release.xcconfig"; sourceTree = "<group>"; };
-		8F6D7AC33A34268E00A31830 /* Pods-DFCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFCommon/Pods-DFCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		302B6D6BDB2365CE8DAD36C6 /* Pods_XYZDFCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZDFCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF6E1ADB27AC8DC9B861988 /* Pods-XYZDFCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZDFCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYZDFCommon/Pods-XYZDFCommon.release.xcconfig"; sourceTree = "<group>"; };
+		8F6D7AC33A34268E00A31830 /* Pods-XYZDFCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZDFCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYZDFCommon/Pods-XYZDFCommon.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11D581281BDB20DE00704C9E /* lame.framework in Frameworks */,
-				81F85AE0121FC539C52D8C5F /* Pods_DFCommon.framework in Frameworks */,
+				81F85AE0121FC539C52D8C5F /* Pods_XYZDFCommon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +222,7 @@
 		110FA2711AF3FEF900771420 = {
 			isa = PBXGroup;
 			children = (
-				110FA27C1AF3FEF900771420 /* DFCommon */,
+				110FA27C1AF3FEF900771420 /* XYZDFCommon */,
 				110FA27B1AF3FEF900771420 /* Products */,
 				4F2C7D36B78BAFC3FAA45C29 /* Pods */,
 				89F40810A98DA49E15EC364A /* Frameworks */,
@@ -232,23 +232,23 @@
 		110FA27B1AF3FEF900771420 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				110FA27A1AF3FEF900771420 /* DFCommon.app */,
+				110FA27A1AF3FEF900771420 /* XYZDFCommon.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		110FA27C1AF3FEF900771420 /* DFCommon */ = {
+		110FA27C1AF3FEF900771420 /* XYZDFCommon */ = {
 			isa = PBXGroup;
 			children = (
 				115193A21C7AAEBF0089013B /* Demo */,
-				1181FBFF1B9005F60005E3AA /* DFCommon */,
+				1181FBFF1B9005F60005E3AA /* XYZDFCommon */,
 				110FA2811AF3FEF900771420 /* AppDelegate.h */,
 				110FA2821AF3FEF900771420 /* AppDelegate.m */,
 				110FA28A1AF3FEF900771420 /* Images.xcassets */,
 				110FA27D1AF3FEF900771420 /* Supporting Files */,
 				1181FCDD1B9006780005E3AA /* prefix.pch */,
 			);
-			path = DFCommon;
+			path = XYZDFCommon;
 			sourceTree = "<group>";
 		};
 		110FA27D1AF3FEF900771420 /* Supporting Files */ = {
@@ -291,10 +291,10 @@
 			path = DFVideo;
 			sourceTree = "<group>";
 		};
-		1181FBFF1B9005F60005E3AA /* DFCommon */ = {
+		1181FBFF1B9005F60005E3AA /* XYZDFCommon */ = {
 			isa = PBXGroup;
 			children = (
-				1181FC281B9005F60005E3AA /* DFCommon.h */,
+				1181FC281B9005F60005E3AA /* XYZDFCommon.h */,
 				1186E94C1D41CB82005CACE6 /* View */,
 				1181FC001B9005F60005E3AA /* Category */,
 				1181FC0E1B9005F60005E3AA /* Controller */,
@@ -304,7 +304,7 @@
 				1181FC8F1B9005F60005E3AA /* Resource */,
 				1181FC921B9005F60005E3AA /* Storage */,
 			);
-			path = DFCommon;
+			path = XYZDFCommon;
 			sourceTree = "<group>";
 		};
 		1181FC001B9005F60005E3AA /* Category */ = {
@@ -372,8 +372,8 @@
 			isa = PBXGroup;
 			children = (
 				1181FC101B9005F60005E3AA /* Asset */,
-				1181FC171B9005F60005E3AA /* DFCommonRegisterController.h */,
-				1181FC181B9005F60005E3AA /* DFCommonRegisterController.m */,
+				1181FC171B9005F60005E3AA /* XYZDFCommonRegisterController.h */,
+				1181FC181B9005F60005E3AA /* XYZDFCommonRegisterController.m */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -576,8 +576,8 @@
 		4F2C7D36B78BAFC3FAA45C29 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F6D7AC33A34268E00A31830 /* Pods-DFCommon.debug.xcconfig */,
-				4AF6E1ADB27AC8DC9B861988 /* Pods-DFCommon.release.xcconfig */,
+				8F6D7AC33A34268E00A31830 /* Pods-XYZDFCommon.debug.xcconfig */,
+				4AF6E1ADB27AC8DC9B861988 /* Pods-XYZDFCommon.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -585,7 +585,7 @@
 		89F40810A98DA49E15EC364A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				302B6D6BDB2365CE8DAD36C6 /* Pods_DFCommon.framework */,
+				302B6D6BDB2365CE8DAD36C6 /* Pods_XYZDFCommon.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -593,9 +593,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		110FA2791AF3FEF900771420 /* DFCommon */ = {
+		110FA2791AF3FEF900771420 /* XYZDFCommon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 110FA29D1AF3FEF900771420 /* Build configuration list for PBXNativeTarget "DFCommon" */;
+			buildConfigurationList = 110FA29D1AF3FEF900771420 /* Build configuration list for PBXNativeTarget "XYZDFCommon" */;
 			buildPhases = (
 				CF042CBB044FBE29559A358D /* [CP] Check Pods Manifest.lock */,
 				110FA2761AF3FEF900771420 /* Sources */,
@@ -607,9 +607,9 @@
 			);
 			dependencies = (
 			);
-			name = DFCommon;
-			productName = DFCommon;
-			productReference = 110FA27A1AF3FEF900771420 /* DFCommon.app */;
+			name = XYZDFCommon;
+			productName = XYZDFCommon;
+			productReference = 110FA27A1AF3FEF900771420 /* XYZDFCommon.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -623,14 +623,16 @@
 				TargetAttributes = {
 					110FA2791AF3FEF900771420 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3HLV443C6K;
 					};
 				};
 			};
-			buildConfigurationList = 110FA2751AF3FEF900771420 /* Build configuration list for PBXProject "DFCommon" */;
+			buildConfigurationList = 110FA2751AF3FEF900771420 /* Build configuration list for PBXProject "XYZDFCommon" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -639,7 +641,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				110FA2791AF3FEF900771420 /* DFCommon */,
+				110FA2791AF3FEF900771420 /* XYZDFCommon */,
 			);
 		};
 /* End PBXProject section */
@@ -680,11 +682,10 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DFCommon/Pods-DFCommon-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-XYZDFCommon/Pods-XYZDFCommon-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/MJPhotoBrowser/MJPhotoBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/MLLabel/MLLabel.framework",
 				"${BUILT_PRODUCTS_DIR}/MMPopupView/MMPopupView.framework",
@@ -693,6 +694,7 @@
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/XYZPhotoBrowser/XYZPhotoBrowser.framework",
 				"${BUILT_PRODUCTS_DIR}/YLGIFImage/YLGIFImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -700,7 +702,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJPhotoBrowser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLLabel.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMPopupView.framework",
@@ -709,11 +710,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYZPhotoBrowser.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLGIFImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DFCommon/Pods-DFCommon-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYZDFCommon/Pods-XYZDFCommon-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CF042CBB044FBE29559A358D /* [CP] Check Pods Manifest.lock */ = {
@@ -727,7 +729,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DFCommon-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-XYZDFCommon-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -761,7 +763,7 @@
 				1186E9631D41E2EB005CACE6 /* ViewController2.m in Sources */,
 				1181FCCF1B9005F60005E3AA /* DFReachabilityUtil.m in Sources */,
 				1173E54C1C722059004C9979 /* DFVideoDecoder.m in Sources */,
-				1181FCA41B9005F60005E3AA /* DFCommonRegisterController.m in Sources */,
+				1181FCA41B9005F60005E3AA /* XYZDFCommonRegisterController.m in Sources */,
 				1181FC9A1B9005F60005E3AA /* NSMutableDictionary+JSON.m in Sources */,
 				110FA2831AF3FEF900771420 /* AppDelegate.m in Sources */,
 				1181FC991B9005F60005E3AA /* NSDictionary+JSON.m in Sources */,
@@ -877,24 +879,25 @@
 		};
 		110FA29E1AF3FEF900771420 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F6D7AC33A34268E00A31830 /* Pods-DFCommon.debug.xcconfig */;
+			baseConfigurationReference = 8F6D7AC33A34268E00A31830 /* Pods-XYZDFCommon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = 3HLV443C6K;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/DFCommon/DFCommon/Lib/lame",
+					"$(PROJECT_DIR)/XYZDFCommon/XYZDFCommon/Lib/lame",
 				);
-				GCC_PREFIX_HEADER = DFCommon/prefix.pch;
-				INFOPLIST_FILE = DFCommon/Info.plist;
+				GCC_PREFIX_HEADER = XYZDFCommon/prefix.pch;
+				INFOPLIST_FILE = XYZDFCommon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/DFCommon/DFCommon/Lib/lame",
+					"$(PROJECT_DIR)/XYZDFCommon/XYZDFCommon/Lib/lame",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -902,24 +905,25 @@
 		};
 		110FA29F1AF3FEF900771420 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AF6E1ADB27AC8DC9B861988 /* Pods-DFCommon.release.xcconfig */;
+			baseConfigurationReference = 4AF6E1ADB27AC8DC9B861988 /* Pods-XYZDFCommon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				DEVELOPMENT_TEAM = 3HLV443C6K;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/DFCommon/DFCommon/Lib/lame",
+					"$(PROJECT_DIR)/XYZDFCommon/XYZDFCommon/Lib/lame",
 				);
-				GCC_PREFIX_HEADER = DFCommon/prefix.pch;
-				INFOPLIST_FILE = DFCommon/Info.plist;
+				GCC_PREFIX_HEADER = XYZDFCommon/prefix.pch;
+				INFOPLIST_FILE = XYZDFCommon/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/DFCommon/DFCommon/Lib/lame",
+					"$(PROJECT_DIR)/XYZDFCommon/XYZDFCommon/Lib/lame",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -928,7 +932,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		110FA2751AF3FEF900771420 /* Build configuration list for PBXProject "DFCommon" */ = {
+		110FA2751AF3FEF900771420 /* Build configuration list for PBXProject "XYZDFCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				110FA29B1AF3FEF900771420 /* Debug */,
@@ -937,7 +941,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		110FA29D1AF3FEF900771420 /* Build configuration list for PBXNativeTarget "DFCommon" */ = {
+		110FA29D1AF3FEF900771420 /* Build configuration list for PBXNativeTarget "XYZDFCommon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				110FA29E1AF3FEF900771420 /* Debug */,

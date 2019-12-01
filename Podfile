@@ -1,17 +1,17 @@
-platform :ios, '7.0'
+platform :ios, '9.0'
 use_frameworks!
 
-target 'DFCommon' do
-pod 'AFNetworking', '~> 3.0.4'
-pod 'SDWebImage', '~> 4.0.0'
-pod 'FMDB', '2.5'
-pod 'MBProgressHUD', '~> 0.9.1'
-pod 'MLLabel', '1.7'
+target 'XYZDFCommon' do
+pod 'AFNetworking', '~> 3.2.1'
+pod 'SDWebImage', '~> 4.4.7'
+pod 'FMDB', '2.7.2'
+pod 'MBProgressHUD', '~> 1.1.0'
+pod 'MLLabel', '1.10.5'
 
-pod 'MJRefresh', '~> 3.1.0'
+pod 'MJRefresh', '~> 3.1.17'
 pod 'ODRefreshControl', '~> 1.2'
-pod 'MJPhotoBrowser', '~> 1.0.2'
+pod 'XYZPhotoBrowser', '~> 1.0.6'
 
 pod 'MMPopupView'
-pod 'TZImagePickerController'
+pod 'TZImagePickerController', '~> 3.2.7'
 end

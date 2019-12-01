@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 Datafans, Inc. All rights reserved.
 //
 
-#import "DFCommonRegisterController.h"
+#import "XYZDFCommonRegisterController.h"
 #import "UIButton+Corner.h"
 
 #import "UIBarButtonItem+Lite.h"

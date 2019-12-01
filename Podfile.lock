@@ -1,53 +1,51 @@
 PODS:
-  - AFNetworking (3.0.4):
-    - AFNetworking/NSURLSession (= 3.0.4)
-    - AFNetworking/Reachability (= 3.0.4)
-    - AFNetworking/Security (= 3.0.4)
-    - AFNetworking/Serialization (= 3.0.4)
-    - AFNetworking/UIKit (= 3.0.4)
-  - AFNetworking/NSURLSession (3.0.4):
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.0.4)
-  - AFNetworking/Security (3.0.4)
-  - AFNetworking/Serialization (3.0.4)
-  - AFNetworking/UIKit (3.0.4):
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - FMDB (2.5):
-    - FMDB/standard (= 2.5)
-  - FMDB/common (2.5)
-  - FMDB/standard (2.5):
-    - FMDB/common
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
   - Masonry (1.0.2)
-  - MBProgressHUD (0.9.2)
-  - MJPhotoBrowser (1.0.2):
-    - SDWebImage
-    - SVProgressHUD
-    - YLGIFImage
-  - MJRefresh (3.1.12)
-  - MLLabel (1.7)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.17)
+  - MLLabel (1.10.5)
   - MMPopupView (1.7.2):
     - Masonry
   - ODRefreshControl (1.2)
-  - SDWebImage (4.0.0):
-    - SDWebImage/Core (= 4.0.0)
-  - SDWebImage/Core (4.0.0)
-  - SVProgressHUD (2.0.4)
-  - TZImagePickerController (1.7.1)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (3.2.7)
+  - XYZPhotoBrowser (1.0.6):
+    - SDWebImage (~> 4.4.7)
+    - SVProgressHUD (~> 2.2.5)
+    - YLGIFImage
   - YLGIFImage (0.11)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0.4)
-  - FMDB (= 2.5)
-  - MBProgressHUD (~> 0.9.1)
-  - MJPhotoBrowser (~> 1.0.2)
-  - MJRefresh (~> 3.1.0)
-  - MLLabel (= 1.7)
+  - AFNetworking (~> 3.2.1)
+  - FMDB (= 2.7.2)
+  - MBProgressHUD (~> 1.1.0)
+  - MJRefresh (~> 3.1.17)
+  - MLLabel (= 1.10.5)
   - MMPopupView
   - ODRefreshControl (~> 1.2)
-  - SDWebImage (~> 4.0.0)
-  - TZImagePickerController
+  - SDWebImage (~> 4.4.7)
+  - TZImagePickerController (~> 3.2.7)
+  - XYZPhotoBrowser (~> 1.0.6)
 
 SPEC REPOS:
   trunk:
@@ -55,7 +53,6 @@ SPEC REPOS:
     - FMDB
     - Masonry
     - MBProgressHUD
-    - MJPhotoBrowser
     - MJRefresh
     - MLLabel
     - MMPopupView
@@ -63,23 +60,24 @@ SPEC REPOS:
     - SDWebImage
     - SVProgressHUD
     - TZImagePickerController
+    - XYZPhotoBrowser
     - YLGIFImage
 
 SPEC CHECKSUMS:
-  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
-  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  MJPhotoBrowser: b98b04d0e3b6a999feb44df68adec413af446809
-  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
-  MLLabel: 928a154301481a93f79427b93af7691d3c17d37d
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: ee5b68f639775462faba4db0fd243baf4d42c2cf
+  MLLabel: d76124055a2205e7f76878e62cd06ba925ba0c97
   MMPopupView: fe1dd010824029dfb632fdf1a531db5dd5386020
   ODRefreshControl: 907e6149d72dde488d5917ccfabee5bd8d711a20
-  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
-  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
-  TZImagePickerController: cbfd57ba947263759b860f74132dd1bc33125afc
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: 821b81f83594a736e831a018f2a2ce31822ddf0b
+  XYZPhotoBrowser: 2da7261ebfeff93443c1882c2ef12507043e80f1
   YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
 
-PODFILE CHECKSUM: 56852a737d8c98dd7cc8376b2770f80a19aa5748
+PODFILE CHECKSUM: 8c3921fd4f3c58ef10980d2eaa2683c4d80d3d6c
 
 COCOAPODS: 1.8.4
