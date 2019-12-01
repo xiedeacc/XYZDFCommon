@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "XYZDFCommon"
-  s.version      = "1.4.23"
+  s.version      = "1.4.24"
   s.summary      = "快速开发ios app，封装了ios开发常用的功能"
 
   s.homepage     = "https://github.com/xiedeacc/XYZDFCommon"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
 
-  s.source       = { :git => "https://github.com/xiedeacc/XYZDFCommon.git", :tag => "1.4.23" }
+  s.source       = { :git => "https://github.com/xiedeacc/XYZDFCommon.git", :tag => "1.4.24" }
 
   s.source_files  = "XYZDFCommon/XYZDFCommon/**/*.{h,m}"
 

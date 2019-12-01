@@ -20,7 +20,7 @@
 #import "DFBaseTabBarController.h"
 #import "DFSectionIndexTabelViewController.h"
 
-#import "DFCommonRegisterController.h"
+#import "XYZDFCommonRegisterController.h"
 
 
 //http
