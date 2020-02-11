@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "XYZDFCommon"
-  s.version      = "1.4.24"
+  s.version      = "1.4.25"
   s.summary      = "快速开发ios app，封装了ios开发常用的功能"
 
   s.homepage     = "https://github.com/xiedeacc/XYZDFCommon"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
 
-  s.source       = { :git => "https://github.com/xiedeacc/XYZDFCommon.git", :tag => "1.4.24" }
+  s.source       = { :git => "https://github.com/xiedeacc/XYZDFCommon.git", :tag => "1.4.25" }
 
   s.source_files  = "XYZDFCommon/XYZDFCommon/**/*.{h,m}"
 
@@ -37,7 +37,6 @@ Pod::Spec.new do |s|
   s.dependency 'ODRefreshControl', '~> 1.2'
   s.dependency 'XYZPhotoBrowser', '~> 1.0.6'
   s.dependency 'MMPopupView'
-  s.dependency 'TZImagePickerController', '~> 3.2.7'
 
   s.vendored_frameworks = "XYZDFCommon/XYZDFCommon/Lib/lame/lame.framework"
 

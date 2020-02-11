@@ -1,4 +1,4 @@
-platform :ios, '9.0'
+platform :ios, '10.0'
 use_frameworks!
 
 target 'XYZDFCommon' do
@@ -13,5 +13,4 @@ pod 'ODRefreshControl', '~> 1.2'
 pod 'XYZPhotoBrowser', '~> 1.0.6'
 
 pod 'MMPopupView'
-pod 'TZImagePickerController', '~> 3.2.7'
 end

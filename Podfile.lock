@@ -28,7 +28,6 @@ PODS:
     - SDWebImage/Core (= 4.4.7)
   - SDWebImage/Core (4.4.7)
   - SVProgressHUD (2.2.5)
-  - TZImagePickerController (3.2.7)
   - XYZPhotoBrowser (1.0.6):
     - SDWebImage (~> 4.4.7)
     - SVProgressHUD (~> 2.2.5)
@@ -44,7 +43,6 @@ DEPENDENCIES:
   - MMPopupView
   - ODRefreshControl (~> 1.2)
   - SDWebImage (~> 4.4.7)
-  - TZImagePickerController (~> 3.2.7)
   - XYZPhotoBrowser (~> 1.0.6)
 
 SPEC REPOS:
@@ -59,7 +57,6 @@ SPEC REPOS:
     - ODRefreshControl
     - SDWebImage
     - SVProgressHUD
-    - TZImagePickerController
     - XYZPhotoBrowser
     - YLGIFImage
 
@@ -74,10 +71,9 @@ SPEC CHECKSUMS:
   ODRefreshControl: 907e6149d72dde488d5917ccfabee5bd8d711a20
   SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  TZImagePickerController: 821b81f83594a736e831a018f2a2ce31822ddf0b
   XYZPhotoBrowser: 2da7261ebfeff93443c1882c2ef12507043e80f1
   YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
 
-PODFILE CHECKSUM: 8c3921fd4f3c58ef10980d2eaa2683c4d80d3d6c
+PODFILE CHECKSUM: da790c13a3621fdf8d8a263001869ac699eb0508
 
 COCOAPODS: 1.8.4
